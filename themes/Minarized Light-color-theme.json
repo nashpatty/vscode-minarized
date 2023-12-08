@@ -224,14 +224,14 @@
             "name": "Documentation Block",
             "scope": "comment.block.documentation",
             "settings": {
-                "foreground": "#2aa198"
+                "foreground": "#93a1a1"
             }
         },
         {
             "name": "Documentation Highlight (JSDoc)",
             "scope": "storage.type.class.jsdoc",
             "settings": {
-                "foreground": "#859900"
+                "foreground": "#93a1a1"
             }
         },
         {
@@ -287,7 +287,7 @@
             "name": "Documentation Entity",
             "scope": "entity.name.type.instance.jsdoc",
             "settings": {
-                "foreground": "#268bd2"
+                "foreground": "#93a1a1"
             }
         },
         {
