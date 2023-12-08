@@ -52,7 +52,7 @@
             "name": "String Interpolation Begin and End",
             "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
             "settings": {
-                "foreground": "#859900"
+                "foreground": "#cb4b16"
             }
         },
         {
@@ -77,14 +77,14 @@
             "name": "Built-in constant",
             "scope": "constant.language,variable.language",
             "settings": {
-                "foreground": "#859900"
+                "foreground": "#cb4b16"
             }
         },
         {
             "name": "constants",
             "scope": ["constant.other", "entity.name.label"],
             "settings": {
-                "foreground": "#268bd2"
+                "foreground": "#6c71c4"
             }
         },
         {
@@ -126,14 +126,14 @@
             "name": "Class constructor",
             "scope": "class.instance.constructor,new.expr entity.name.type",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
             "name": "Function",
             "scope": "support.function, entity.name.function",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -154,7 +154,7 @@
             "name": "Variable, Property",
             "scope": "variable.property,variable.other.property,variable.other.object.property,variable.object.property,support.variable.property",
             "settings": {
-                "foreground": "#268bd2"
+                "foreground": "#6c71c4"
             }
         },
         {
@@ -175,7 +175,7 @@
             "name": "Tag name",
             "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, entity.name.tag",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -189,7 +189,7 @@
             "name": "keys",
             "scope": ["meta.object-literal.key", "support.type.property-name"],
             "settings": {
-                "foreground": "#268bd2"
+                "foreground": "#6c71c4"
             }
         },
         {
@@ -217,7 +217,7 @@
             "name": "TypeScript Method Declaration",
             "scope": "function-declaration,method-declaration,method-overload-declaration,type-fn-type-parameters",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -287,7 +287,7 @@
             "name": "Documentation Entity",
             "scope": "entity.name.type.instance.jsdoc",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -322,7 +322,7 @@
             "name": "Regex Group/Set",
             "scope": "punctuation.definition.group.regexp,punctuation.definition.character-class.regexp",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -371,7 +371,7 @@
             "name": "CSS Property entity",
             "scope": "entity.other.attribute-name.class.css,entity.other.attribute-name.class.scss,entity.other.attribute-name.parent-selector-suffix.css,entity.other.attribute-name.parent-selector-suffix.scss",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -385,7 +385,7 @@
             "name": "CSS Property-value function",
             "scope": "property-list.property-value.function",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -399,7 +399,7 @@
             "name": "CSS ID, Selector",
             "scope": "meta.selector.css, entity.attribute-name.id, entity.other.attribute-name.pseudo-class.css,entity.other.attribute-name.pseudo-element.css",
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#268bd2"
             }
         },
         {
@@ -447,14 +447,14 @@
             "name": "PHP variables",
             "scope": ["variable.language.php", "variable.other.php"],
             "settings": {
-                "foreground": "#268bd2"
+                "foreground": "#6c71c4"
             }
         },
         {
             "name": "Perl specific",
             "scope": ["variable.other.readwrite.perl"],
             "settings": {
-                "foreground": "#268bd2"
+                "foreground": "#6c71c4"
             }
         },
         {
@@ -468,7 +468,7 @@
             "name": "PHP variables",
             "scope": ["support.variable.property.php"],
             "settings": {
-                "foreground": "#b58900"
+                "foreground": "#6c71c4"
             }
         },
         // diff related items
@@ -493,7 +493,7 @@
             "scope": "markup.changed",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#CB4B16"
+                "foreground": "#b58900"
             }
         },
         {
@@ -565,7 +565,6 @@
         "button.background": "#2AA19899",
 
         "list.activeSelectionBackground": "#005A6F",
-        // "list.activeSelectionForeground": "",
         "quickInputList.focusBackground": "#005A6F",
         "list.hoverBackground": "#004454AA",
         "list.inactiveSelectionBackground": "#00445488",
@@ -626,7 +625,7 @@
         "activityBar.background": "#003847",
 
         // Workbench: Panel
-        "panel.border": "#2b2b4a",
+        "panel.border": "#003847",
 
         // Workbench: Side Bar
         "sideBar.background": "#00212B",
