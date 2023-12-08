@@ -1,6 +1,6 @@
 {
-  "name": "minarized",
-  "displayName": "Minarized",
+  "name": "solarizedmin",
+  "displayName": "Solarized Min",
   "description": "Solarized color scheme with minimal token highlighting.",
   "version": "1.0.0",
   "engines": {
@@ -12,14 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Minarized Dark",
+        "label": "Solarized Min Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Minarized Dark-color-theme.json"
+        "path": "./themes/Solarized Min Dark-color-theme.json"
       },
       {
-        "label": "Minarized Light",
+        "label": "Solarized Min Light",
         "uiTheme": "vs",
-        "path": "./themes/Minarized Light-color-theme.json"
+        "path": "./themes/Solarized Min Light-color-theme.json"
       }
     ]
   },
