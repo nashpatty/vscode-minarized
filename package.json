@@ -4,6 +4,7 @@
   "description": "Solarized color scheme with minimal token highlighting.",
   "icon": "images/icon.png",
   "version": "1.0.0",
+  "publisher": "nashpatty",
   "engines": {
     "vscode": "^1.84.0"
   },
