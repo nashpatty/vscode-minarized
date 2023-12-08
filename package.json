@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Minarized",
+        "label": "Minarized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Minarized-color-theme.json"
+        "path": "./themes/Minarized Dark-color-theme.json"
+      },
+      {
+        "label": "Minarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/Minarized Light-color-theme.json"
       }
     ]
   },
