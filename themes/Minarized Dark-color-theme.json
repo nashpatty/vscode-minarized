@@ -653,6 +653,7 @@
         // Workbench: Terminal
         // Colors sourced from the official palette http://ethanschoonover.com/solarized
         "terminal.foreground": "#93a1a1",
+        "terminal.background": "#002b36",
         "terminal.ansiBlack": "#000000",
         "terminal.ansiRed": "#dc322f",
         "terminal.ansiGreen": "#859900",
