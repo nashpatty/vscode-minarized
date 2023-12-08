@@ -2,12 +2,20 @@
   "name": "solarizedmin",
   "displayName": "Solarized Min",
   "description": "Solarized color scheme with minimal token highlighting.",
+  "icon": "images/icon.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.84.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "theme",
+    "dark",
+    "solarized",
+    "light"
   ],
   "contributes": {
     "themes": [
