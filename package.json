@@ -2,7 +2,7 @@
   "name": "minarized",
   "displayName": "Minarized",
   "description": "Solarized color scheme with minimal token highlighting.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -17,5 +17,9 @@
         "path": "./themes/Minarized-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nashpatty/vscode-minarized.git"
   }
 }
