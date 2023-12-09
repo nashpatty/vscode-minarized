@@ -548,7 +548,7 @@
         "editor.lineHighlightBackground": "#073642",
         "editorLineNumber.foreground": "#8394964d",
         "editorLineNumber.activeForeground": "#839496",
-        "editor.selectionBackground": "#274642",
+        "editor.selectionBackground": "#268bd240",
         "minimap.selectionHighlight": "#274642",
         "editorBracketMatch.background": "#2aa1984d",
         "editorBracketMatch.border": "#2aa1984d",
@@ -559,8 +559,13 @@
         "editorMarkerNavigationError.background": "#AB395B",
         "editorMarkerNavigationWarning.background": "#5B7E7A",
         "editor.selectionHighlightBackground": "#005A6FAA",
-        "editor.wordHighlightBackground": "#004454AA",
-        "editor.wordHighlightStrongBackground": "#005A6FAA",
+
+        // word match and find highlight colors
+        "editor.wordHighlightStrongBackground": "#732b0d80",
+        "editor.wordHighlightBackground": "#424d0080",
+        "editor.findMatchBackground": "#732b0d99",
+        "editor.findMatchHighlightBackground": "#424d0099",
+        "editor.rangeHighlightBackground": "#073642cc",
 
         // Editor: Suggest
 
