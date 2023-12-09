@@ -502,38 +502,6 @@
             "settings": {
                 "foreground": "#859900"
             }
-        },
-        // diff related items
-        {
-            "name": "diff: header",
-            "scope": ["meta.diff", "meta.diff.header"],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#268BD2"
-            }
-        },
-        {
-            "name": "diff: deleted",
-            "scope": "markup.deleted",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#DC322F"
-            }
-        },
-        {
-            "name": "diff: changed",
-            "scope": "markup.changed",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#CB4B16"
-            }
-        },
-        {
-            "name": "diff: inserted",
-            "scope": "markup.inserted",
-            "settings": {
-                "foreground": "#859900"
-            }
         }
     ],
     "colors": {
