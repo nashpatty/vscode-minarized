@@ -21,14 +21,14 @@
             "name": "no highlighting",
             "scope": "storage.modifier.import",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Operator Keywords",
             "scope": "keyword.operator,keyword.operator.logical,keyword.operator.relational,keyword.operator.assignment,keyword.operator.comparison,keyword.operator.ternary,keyword.operator.arithmetic,keyword.operator.spread",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -59,7 +59,7 @@
             "name": "String Interpolation Body",
             "scope": "expression.string,meta.template.expression",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -112,7 +112,7 @@
             "name": "Types, Class Types",
             "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -140,14 +140,14 @@
             "name": "Function Types",
             "scope": "annotation.meta.ts, annotation.meta.tsx",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Function Argument",
             "scope": "variable.parameter, operator.rest.parameters",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -203,14 +203,14 @@
             "name": "TypeScript Type Casting",
             "scope": "ts.cast.expr,ts.meta.entity.class.method.new.expr.cast,ts.meta.entity.type.name.new.expr.cast,ts.meta.entity.type.name.var-single-variable.annotation,tsx.cast.expr,tsx.meta.entity.class.method.new.expr.cast,tsx.meta.entity.type.name.new.expr.cast,tsx.meta.entity.type.name.var-single-variable.annotation",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "TypeScript Type Declaration",
             "scope": "ts.meta.type.support,ts.meta.type.entity.name,ts.meta.class.inherited-class,tsx.meta.type.support,tsx.meta.type.entity.name,tsx.meta.class.inherited-class,type-declaration,enum-declaration",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -238,14 +238,14 @@
             "name": "Import-Export-All (*) Keyword",
             "scope": "constant.language.import-export-all",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Object Key Seperator",
             "scope": "objectliteral.key.separator, punctuation.separator.key-value",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -259,28 +259,28 @@
             "name": "Typescript Namespace",
             "scope": "ts.meta.entity.name.namespace,tsx.meta.entity.name.namespace",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Regex Character-class",
             "scope": "regex.character-class",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Class Name",
             "scope": "entity.name.type.class",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Class Inheritances",
             "scope": "entity.other.inherited-class",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -301,14 +301,14 @@
             "name": "YAML string value",
             "scope": "yaml.string.out",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Ignored (Exceptions Rules)",
             "scope": "meta.brace.square.ts,block.support.module,block.support.type.module,block.support.function.variable,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -329,14 +329,14 @@
             "name": "Regex Character Class",
             "scope": "constant.other.character-class.regexp, constant.character.escape.ts",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Regex Or Operator",
             "scope": "expr.regex.or.operator",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -350,14 +350,14 @@
             "name": "Tag function parenthesis",
             "scope": "tag.punctuation.begin.arrow.parameters.embedded,tag.punctuation.end.arrow.parameters.embedded",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
             "name": "Object-literal key class",
             "scope": "object-literal.object.member.key.field.other,object-literal.object.member.key.accessor,object-literal.object.member.key.array.brace.square",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#657b83"
             }
         },
         {
@@ -413,7 +413,7 @@
             "name": "Triple-slash Directive Tag",
             "scope": "triple-slash.tag",
             "settings": {
-                "foreground": "#586e75",
+                "foreground": "#657b83",
                 "fontStyle": "italic"
             }
         },
@@ -545,8 +545,8 @@
         // "widget.shadow": "",
         "input.background": "#DDD6C1",
         // "input.border": "",
-        "input.foreground": "#586E75",
-        "input.placeholderForeground": "#586E75AA",
+        "input.foreground": "#657b83",
+        "input.placeholderForeground": "#657b83AA",
         "inputOption.activeBorder": "#D3AF86",
         // "inputValidation.infoBorder": "",
         // "inputValidation.infoBackground": "",
@@ -575,11 +575,11 @@
 
         // Editor
         "editor.background": "#FDF6E3",
-        "editor.foreground": "#586e75",
+        "editor.foreground": "#657b83",
         "notebook.cellEditorBackground": "#F7F0E0",
         "editorWidget.background": "#EEE8D5",
         "editorCursor.foreground": "#073642",
-        "editorWhitespace.foreground": "#586E7540",
+        "editorWhitespace.foreground": "#657b8340",
         "editor.lineHighlightBackground": "#EEE8D5cc",
         "editor.selectionBackground": "#268bd21a",
         "minimap.selectionHighlight": "#268bd21a",
@@ -650,7 +650,7 @@
         // Workbench: Tabs
         "tab.border": "#DDD6C1",
         "tab.activeBackground": "#FDF6E3",
-        "tab.inactiveForeground": "#586E75",
+        "tab.inactiveForeground": "#657b83",
         "tab.inactiveBackground": "#D3CBB7",
         "tab.activeModifiedBorder": "#cb4b16",
         // "tab.activeBackground": "",
@@ -670,10 +670,10 @@
         // "panelTitle.inactiveForeground": "",
         // Workbench: Side Bar
         "sideBar.background": "#EEE8D5",
-        "sideBarTitle.foreground": "#586E75",
+        "sideBarTitle.foreground": "#657b83",
         // "sideBarSectionHeader.background": "",
         // Workbench: Status Bar
-        "statusBar.foreground": "#586E75",
+        "statusBar.foreground": "#657b83",
         "statusBar.background": "#EEE8D5",
         "statusBar.debuggingBackground": "#EEE8D5",
         "statusBar.noFolderBackground": "#EEE8D5",
@@ -715,7 +715,7 @@
         // Set terminal background explicitly, otherwise selection becomes invisible when the
         // terminal is in the side bar
         "terminal.background": "#FDF6E3",
-        "terminal.foreground": "#586e75",
+        "terminal.foreground": "#657b83",
         // Interactive Playground
         "walkThrough.embeddedEditorBackground": "#00000014"
     },
