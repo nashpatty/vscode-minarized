@@ -1,39 +1,39 @@
 {
-  "name": "solarizedmin",
-  "displayName": "Solarized Min",
-  "description": "Solarized color scheme with minimal token highlighting.",
-  "icon": "images/icon.png",
-  "version": "1.0.0",
-  "publisher": "nashpatty",
-  "engines": {
-    "vscode": "^1.84.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "vscode",
-    "theme",
-    "dark",
-    "solarized",
-    "light"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Solarized Min Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Solarized Min Dark-color-theme.json"
-      },
-      {
-        "label": "Solarized Min Light",
-        "uiTheme": "vs",
-        "path": "./themes/Solarized Min Light-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nashpatty/vscode-minarized.git"
-  }
+    "name": "solarizedmin",
+    "displayName": "Solarized Min",
+    "description": "Solarized color scheme with minimal token highlighting.",
+    "icon": "images/icon.png",
+    "version": "1.1.0",
+    "publisher": "nashpatty",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "vscode",
+        "theme",
+        "dark",
+        "solarized",
+        "light"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Min Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Solarized Min Dark-color-theme.json"
+            },
+            {
+                "label": "Solarized Min Light",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized Min Light-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nashpatty/vscode-minarized.git"
+    }
 }

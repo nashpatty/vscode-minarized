@@ -9,3 +9,7 @@
 -   Changed foreground color for both light and dark variants to use the lower contrast gray.
 -   Changed selection color for dark variant.
 -   Changed word highlight colors for dark variant.
+
+## [1.2.0] 2026-03-11
+
+-   Updated token highlights and closely aligned dark and light mode
