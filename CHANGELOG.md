@@ -18,3 +18,7 @@
 
 -   Increased contrast of panels headers (terminal, debug)
 -   Updated colors of built in language constants (such as True, False)
+
+## [1.2.2] 2026-03-11
+
+-   Make comments italic

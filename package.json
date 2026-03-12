@@ -3,7 +3,7 @@
     "displayName": "Solarized Min",
     "description": "Solarized color scheme with minimal token highlighting.",
     "icon": "images/icon.png",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "publisher": "nashpatty",
     "engines": {
         "vscode": "^1.0.0"
