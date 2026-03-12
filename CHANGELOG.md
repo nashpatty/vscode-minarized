@@ -13,3 +13,8 @@
 ## [1.2.0] 2026-03-11
 
 -   Updated token highlights and closely aligned dark and light mode
+
+## [1.2.1] 2026-03-11
+
+-   Increased contrast of panels headers (terminal, debug)
+-   Updated colors of built in language constants (such as True, False)
