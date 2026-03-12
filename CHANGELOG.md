@@ -22,3 +22,7 @@
 ## [1.2.2] 2026-03-11
 
 -   Make comments italic
+
+## [1.2.3] 2026-03-11
+
+-   Remove js const magenta highlight
