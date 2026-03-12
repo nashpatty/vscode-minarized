@@ -128,7 +128,7 @@
     "tokenColors": [
         {
             "name": "keyword or other syntax",
-            "scope": "punctuation.terminator,constant.character.escape,punctuation.quasi.element",
+            "scope": "punctuation.terminator,punctuation.quasi.element",
             "settings": {
                 "foreground": "#859900"
             }
@@ -140,15 +140,21 @@
                 "foreground": "#6c71c4"
             }
         },
-        // {
-        //     "scope": "variable.parameter",
-        //     "settings": {
-        //         "foreground": "#b58900"
-        //     }
-        // },
+        {
+            "scope": "support.type,constant.character.escape",
+            "settings": {
+                "foreground": "#b58900"
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#d33682"
+            }
+        },
         {
             "name": "no highlight",
-            "scope": "variable.other,string.unquoted.argument.shell,storage.type.object,storage.type.java,constant.other.option",
+            "scope": "variable,string.unquoted.argument.shell,storage.type.object,storage.type.java,constant.other.option",
             "settings": {
                 "foreground": "#839496"
             }
@@ -164,7 +170,6 @@
                 "meta.embedded",
                 "source.groovy.embedded",
                 "string meta.image.inline.markdown",
-                "variable.legacy.builtin.python"
             ],
             "settings": {
                 "foreground": "#839496"
@@ -196,12 +201,6 @@
             "settings": {
                 "foreground": "#586e75",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": "constant.language,variable.other.constant",
-            "settings": {
-                "foreground": "#d33682"
             }
         },
         {
