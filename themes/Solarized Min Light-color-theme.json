@@ -36,7 +36,6 @@
         // "scrollbarSlider.activeBackground": "",
         // "scrollbarSlider.background": "",
         // "scrollbarSlider.hoverBackground": "",
-
         // Editor
         "editor.background": "#FDF6E3",
         "editor.foreground": "#657b83",
@@ -127,8 +126,8 @@
         "activityBarBadge.background": "#B58900",
         // "activityBarBadge.foreground": "",
         // Workbench: Panel
-        // "panel.background": "",
-        "panel.border": "#DDD6C1",
+        "panel.background": "#EEE8D5",
+        "panel.border": "#EEE8D5",
         // "panelTitle.activeBorder": "",
         // "panelTitle.activeForeground": "",
         // "panelTitle.inactiveForeground": "",
@@ -251,20 +250,20 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#93a1a1"
             }
         },
         {
             "name": "block comment",
             "scope": "comment.block",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#93a1a1"
             }
         },
         {
-            "scope": "constant.language",
+            "scope": "constant.language,variable.other.constant",
             "settings": {
-                "foreground": "#859900"
+                "foreground": "#d33682"
             }
         },
         {
