@@ -250,14 +250,16 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#93a1a1"
+                "foreground": "#93a1a1",
+                "fontStyle": "italic"
             }
         },
         {
             "name": "block comment",
             "scope": "comment.block",
             "settings": {
-                "foreground": "#93a1a1"
+                "foreground": "#93a1a1",
+                "fontStyle": "italic"
             }
         },
         {

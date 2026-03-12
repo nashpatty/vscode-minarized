@@ -36,7 +36,7 @@
         "editorLineNumber.foreground": "#8394964d",
         "editorLineNumber.activeForeground": "#839496",
         "editor.selectionBackground": "#268bd240",
-        "minimap.selectionHighlight": "#274642",
+        "minimap.selectionHighlight": "#268bd240",
         "editorBracketMatch.background": "#2aa1984d",
         "editorBracketMatch.border": "#2aa1984d",
         "editorRuler.foreground": "#586e754d",
@@ -186,14 +186,16 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#586e75",
+                "fontStyle": "italic"
             }
         },
         {
             "name": "block comment",
             "scope": "comment.block",
             "settings": {
-                "foreground": "#586e75"
+                "foreground": "#586e75",
+                "fontStyle": "italic"
             }
         },
         {
