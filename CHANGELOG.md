@@ -26,3 +26,7 @@
 ## [1.2.3] 2026-03-11
 
 -   Remove js const magenta highlight
+
+## [1.3.0] 2026-08-08
+
+-   Added a hyperminimal syntax color scheme.
