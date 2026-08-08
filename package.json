@@ -21,12 +21,22 @@
     "contributes": {
         "themes": [
             {
-                "label": "Solarized Min Dark",
+                "label": "Solarized Hyperminimal Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/solarized-hyperminimal-dark-color-theme.json"
+            },
+            {
+                "label": "Solarized Minimal Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Solarized Min Dark-color-theme.json"
             },
             {
-                "label": "Solarized Min Light",
+                "label": "Solarized Hyperminimal Light",
+                "uiTheme": "vs",
+                "path": "./themes/solarized-hyperminimal-light-color-theme.json"
+            },
+            {
+                "label": "Solarized Minimal Light",
                 "uiTheme": "vs",
                 "path": "./themes/Solarized Min Light-color-theme.json"
             }

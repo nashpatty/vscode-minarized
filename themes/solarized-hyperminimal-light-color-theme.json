@@ -1,0 +1,193 @@
+{
+    "name": "Solarized Min Light",
+    "colors": {
+        // Base
+        "focusBorder": "#b49471",
+        "input.background": "#DDD6C1",
+        "input.foreground": "#657b83",
+        "input.placeholderForeground": "#657b83AA",
+        "inputOption.activeBorder": "#D3AF86",
+        "badge.background": "#B58900AA",
+        "progressBar.background": "#B58900",
+        "dropdown.background": "#EEE8D5",
+        // "dropdown.foreground": "",
+        "dropdown.border": "#D3AF86",
+        "button.background": "#AC9D57",
+        // "button.foreground": "",
+        "selection.background": "#878b9180",
+        "list.activeSelectionBackground": "#DFCA88",
+        "list.activeSelectionForeground": "#6C6C6C",
+        "quickInputList.focusBackground": "#DFCA8866",
+        "list.hoverBackground": "#DFCA8844",
+        "list.inactiveSelectionBackground": "#D1CBB8",
+        "list.highlightForeground": "#B58900",
+        // Editor
+        "editor.background": "#FDF6E3",
+        "editor.foreground": "#657b83",
+        "notebook.cellEditorBackground": "#F7F0E0",
+        "editorWidget.background": "#EEE8D5",
+        "editorCursor.foreground": "#b58900",
+        "editorWhitespace.foreground": "#657b8340",
+        "editor.lineHighlightBorder": "#eee8d5",
+        "editor.selectionBackground": "#268bd21a",
+        "minimap.selectionHighlight": "#268bd21a",
+        "editorIndentGuide.background1": "#93a1a14d",
+        "editorIndentGuide.activeBackground1": "#93a1a1b3",
+        "editorRuler.foreground": "#93a1a14d",
+        "editorHoverWidget.background": "#EEE8D5",
+        "editorLineNumber.foreground": "#93a1a1b3",
+        "editorLineNumber.activeForeground": "#657b83",
+        "editorBracketMatch.background": "#268bd22c",
+        "editorBracketMatch.border": "#268bd24d",
+        "sideBar.border": "#fdf6e3",
+        "panel.border": "#fdf6e3",
+        "statusBar.border": "#fdf6e3",
+        "activityBar.border": "#fdf6e3",
+        "editorGroupHeader.border": "#eee8d5",
+        // word match and find highlight colors
+        "editor.wordHighlightBackground": "#8599001a",
+        "editor.wordHighlightStrongBackground": "#cb4b161a",
+        "editor.findMatchBackground": "#cb4b1659",
+        "editor.findMatchHighlightBackground": "#85990059",
+        "editor.rangeHighlightBackground": "#EEE8D5cc",
+        "peekViewResult.background": "#EEE8D5",
+        "peekViewEditor.background": "#FFFBF2",
+        "peekViewTitle.background": "#EEE8D5",
+        "peekView.border": "#B58900",
+        "peekViewEditor.matchHighlightBackground": "#7744AA40",
+        "titleBar.activeBackground": "#EEE8D5",
+        "editorGroup.border": "#DDD6C1",
+        "editorGroup.dropBackground": "#DDD6C1AA",
+        "editorGroupHeader.tabsBackground": "#D9D2C2",
+        // Workbench: Tabs
+        "tab.border": "#DDD6C1",
+        "tab.activeBackground": "#FDF6E3",
+        "tab.inactiveForeground": "#657b83",
+        "tab.inactiveBackground": "#D3CBB7",
+        "tab.activeModifiedBorder": "#cb4b16",
+        "tab.lastPinnedBorder": "#FDF6E3",
+        "activityBar.background": "#EEE8D5",
+        "activityBar.foreground": "#584c27",
+        "activityBarBadge.background": "#B58900",
+        "panel.background": "#EEE8D5",
+        "sideBar.background": "#EEE8D5",
+        "sideBarTitle.foreground": "#657b83",
+        "statusBar.foreground": "#657b83",
+        "statusBar.background": "#EEE8D5",
+        "statusBar.debuggingBackground": "#EEE8D5",
+        "statusBar.noFolderBackground": "#EEE8D5",
+        "statusBarItem.remoteBackground": "#AC9D57",
+        "ports.iconRunningProcessForeground": "#2AA19899",
+        "statusBarItem.prominentBackground": "#DDD6C1",
+        "statusBarItem.prominentHoverBackground": "#DDD6C199",
+        "debugToolBar.background": "#DDD6C1",
+        "debugExceptionWidget.background": "#DDD6C1",
+        "debugExceptionWidget.border": "#AB395B",
+        "pickerGroup.border": "#2AA19899",
+        "pickerGroup.foreground": "#2AA19899",
+        "extensionButton.prominentBackground": "#b58900",
+        "extensionButton.prominentHoverBackground": "#584c27aa",
+        // Colors sourced from the official palette http://ethanschoonover.com/solarized
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiRed": "#dc322f",
+        "terminal.ansiGreen": "#859900",
+        "terminal.ansiYellow": "#b58900",
+        "terminal.ansiBlue": "#268bd2",
+        "terminal.ansiMagenta": "#d33682",
+        "terminal.ansiCyan": "#2aa198",
+        "terminal.ansiWhite": "#ffffff",
+        "terminal.ansiBrightBlack": "#000000",
+        "terminal.ansiBrightRed": "#dc322f",
+        "terminal.ansiBrightGreen": "#859900",
+        "terminal.ansiBrightYellow": "#b58900",
+        "terminal.ansiBrightBlue": "#268bd2",
+        "terminal.ansiBrightMagenta": "#d33682",
+        "terminal.ansiBrightCyan": "#2aa198",
+        "terminal.ansiBrightWhite": "#ffffff",
+        // Set terminal background explicitly, otherwise selection becomes invisible when the
+        // terminal is in the side bar
+        "terminal.background": "#FDF6E3",
+        "terminal.foreground": "#657b83",
+        // Interactive Playground
+        "walkThrough.embeddedEditorBackground": "#00000014"
+    },
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "customLiteral": "#657b83",
+        "newOperator": "#657b83",
+        "numberLiteral": "#d33682",
+        "stringLiteral": "#2aa198"
+    },
+    "tokenColors": [
+        {
+            "name": "remove highlights",
+            "scope": [
+                "entity.name.variable"
+            ],
+            "settings": {
+                "foreground": "#657b83"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#cb4b16"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "string.regexp",
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#2aa198"
+            }
+        },
+        {
+            "name": "Strings: Escape Sequences",
+            "scope": "constant.character.escape",
+            "settings": {
+                "foreground": "#839496"
+            }
+        },
+        {
+            "name": "Numbers, Characters",
+            "scope": [
+                "constant.numeric",
+                "constant.character",
+                "constant.keyword",
+                "constant"
+            ],
+            "settings": {
+                "foreground": "#d33682"
+            }
+        },
+        {
+            "name": "Global definitions",
+            "scope": "entity.name,support.function",
+            "settings": {
+                "foreground": "#268bd2"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation,meta.brace",
+            "settings": {
+                "foreground": "#93a1a1"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                "foreground": "#dc322f"
+            }
+        }
+    ]
+}
