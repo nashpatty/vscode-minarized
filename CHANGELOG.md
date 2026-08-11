@@ -30,3 +30,8 @@
 ## [1.3.0] 2026-08-08
 
 -   Added a hyperminimal syntax color scheme.
+
+## [1.3.1] 2026-08-11
+
+-   Increased the contrast of the hyperminimal color scheme
+-   Updated sidebar colors since they were too distracting
